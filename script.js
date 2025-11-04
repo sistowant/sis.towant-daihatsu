@@ -7,7 +7,7 @@ const nextBtn = document.querySelector(".forward");
 
 // the image array
 const images = [
-  "./img/01-living-room-blue-theme.jpg",
+  "IMG-20251102-WA0002.jpg",
   "./img/02-living-room-couch.jpg",
   "./img/03-living-room-red-theme.jpg",
   "./img/04-modern-kitchen.jpg",
