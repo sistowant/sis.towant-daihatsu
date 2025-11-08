@@ -25,15 +25,18 @@
             color: white;
         }
     </style>
-<span style="text-decoration: blink;">
-  <marquee behavior="alternate" direction="right" scrollamount="10">
-    Teks ini berjalan dan berkedip secara bersamaan.
-  </marquee>
-</span>
-
-  
-    <span style="text-decoration:blink;">
-    <marquee scrollamount="10" loop="infinite" bgcolor="steelblue" width="100%" height="20">ARMADA DAIHATSU CILACAP SIS.TOWANT 088983784727 DEALER ARMADA DAIHATSU CILACAP</marquee></span>
+  .blink {
+  animation: blinker 1s linear infinite alternate;
+}
+@keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+</style>
+  <span class="blink">
+  <marquee scrollamount="10" loop="infinite" bgcolor="steelblue" width="100%" height="20">ARMADA DAIHATSU CILACAP SIS.TOWANT 088983784727 DEALER ARMADA DAIHATSU CILACAP
+    </marquee></span>
+    </span>
     <link rel="stylesheet" href="style.css">
     <h2 style="text-align:center;font-size:200%;">Sahabat Daihatsu</p>
     <p style="text-align:center;font-size:50%;">Sahabat penikmat kopi,penggiat alas bedak,
