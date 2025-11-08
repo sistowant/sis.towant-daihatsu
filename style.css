@@ -2,17 +2,21 @@
   display: flex;
   width: 100%;
 }
-.images img {
+.images img{
 width: 100%;
 }
 .wrapper {
-  width:800px;
-  margin: auto;
-  border-radius: 5px; 
-  overflow: hidden;
+  width:100px;
+  margin:auto;
+  border-radius:0px;
+  overflow:hidden;
 }
-#slide-1:target ~ .images{
-  margin-left: 0px;
+#slide-1:target~.images{
+  margin-left:0px;
 }
-#slide-2:target ~ .images{
-  margin-left: 100px;
+#slide-2:target~.images{
+  margin-left:100px;
+}
+#slide-3:target~.images{
+  margin-left:100px;
+}
