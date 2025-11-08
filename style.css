@@ -1,3 +1,6 @@
 .images {
   display: flex;
 }
+.wrapper {
+  overflow: hidden;
+}
