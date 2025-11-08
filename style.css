@@ -2,21 +2,24 @@
   display: flex;
   width: 100%;
 }
-.images img{
+.images img {
 width: 100%;
 }
 .wrapper {
-  width: 300px;
+  width: 200px;
   margin: auto;
   border-radius: 5px;
   overflow: hidden;
 }
-#slide-1:target~.images{
+
+#slide-1:target ~ .images {
   margin-left: 0px;
 }
-#slide-2:target~.images{
+
+#slide-2:target ~ .images {
   margin-left: -100%;
 }
-#slide-3:target~.images{
+
+#slide-3:target ~ .images {
   margin-left: -200%;
 }
