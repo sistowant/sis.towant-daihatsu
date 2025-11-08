@@ -6,9 +6,9 @@
 width: 100%;
 }
 .wrapper {
-  width:100px;
+  width:200px;
   margin:auto;
-  border-radius:0px;
+  border-radius:5px;
   overflow:hidden;
 }
 #slide-1:target~.images{
