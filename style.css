@@ -3,10 +3,10 @@
   width: 100%;
 }
 .images img{
-width: 100%;
+width: 300%;
 }
 .wrapper {
-  width:200px;
+  width:100px;
   margin:auto;
   border-radius:5px;
   overflow:hidden;
