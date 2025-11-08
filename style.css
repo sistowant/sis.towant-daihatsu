@@ -1,6 +1,15 @@
 .images {
   display: flex;
+  width: 100%
+}
+.images img {
+width: 100%
 }
 .wrapper {
   overflow: hidden;
 }
+#slide-1:target ~ .images{
+  margin-left: 0px;
+}
+#slide-2:target ~ .images{
+  margin-left: 0px;
