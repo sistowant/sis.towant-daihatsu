@@ -16,19 +16,19 @@ object-fit: contain;
   overflow: hidden;
 }
 
-#slide-1:target ~ .images {
+#slide-1:target ~ .gambar {
   margin-left: 0px;
 }
 
-#slide-2:target ~ .images {
+#slide-2:target ~ .gambar {
   margin-left: -100%;
 }
 
-#slide-3:target ~ .images {
+#slide-3:target ~ .gambar {
   margin-left: -200%;
 }
 
-#slide-4:target ~ .images {
+#slide-4:target ~ .gambar {
   margin-left: -300%;
 }
 
