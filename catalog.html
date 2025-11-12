@@ -10,7 +10,12 @@
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        table {
+        .splide__slide img {
+             width: 100%;
+             height: auto;
+        }
+
+		table {
             border-collapse: collapse;
         }
         table, th, td {
@@ -51,6 +56,9 @@
   </div>
 </div>
 <body>
+<script>
+  new Splide( '#image-slider' ).mount();
+</script>
 </body>
 </head>
 </html>
