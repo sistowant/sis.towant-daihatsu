@@ -28,6 +28,10 @@ object-fit: contain;
   margin-left: -200%;
 }
 
+#slide-4:target ~ .images {
+  margin-left: -300%;
+}
+
 .navigation a {
   display: inline-block;
   height: 25px;
