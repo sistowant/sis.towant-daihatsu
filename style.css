@@ -1,10 +1,10 @@
-#slide {
+ .slide {
   position: relative;
   color: white;
   background-color: white;
 }
 
-#slide img {
+.slide img {
   max-height: 45vw;
   width: 100%;
   height: auto;
