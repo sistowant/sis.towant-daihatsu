@@ -1,17 +1,17 @@
-.slide {
+#slide {
   position: relative;
   color: white;
   background-color: white;
 }
 
-.slide Img {
+#slide Img {
   max-height: 45vw;
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-.slider-container {
+.slide-container {
   display: none;
 }
 
