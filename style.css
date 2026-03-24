@@ -1,13 +1,12 @@
 .slider{
-	margin-left:20px;
-	margin-right:20px;
-	width:30%;
-	height:30%;
+	margin:20px auto;
+	width:200px;
+	height:auto;
 	overflow:hidden;
 }
  
 .img-box img{
-	width:100%;
+	width:30%;
 }
 
 .btn{
