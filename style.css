@@ -1,6 +1,6 @@
 .slider{
 	margin:50px auto;
-	width:50%;
+	width:80%;
 	overflow:hidden;
 }
  
@@ -13,12 +13,12 @@
 	border:none;
 	outline:none;
 	background:#888;
-	padding:10px 30px;
-	font-size: 20px;
+	padding:10px 10px;
+	font-size: 10px;
 	color:#ddd;
 	cursor: pointer;
 	margin:10px auto;
-	border-radius:50px;
+	border-radius:100px;
 	justify-content:center;
 }
 
