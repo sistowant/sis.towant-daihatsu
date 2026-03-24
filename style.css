@@ -5,7 +5,7 @@
 }
  
 .img-box img{
-	width:180%;
+	width:240%;
 	height:auto;
 }
 
@@ -13,13 +13,14 @@
 	border:none;
 	outline:none;
 	background:#888;
-	padding:5px 5px 5px 5px;
-	font-size: 10px;
+	padding:5px 5px;
+	font-size: 5px;
 	color:#ddd;
 	cursor: pointer;
 	margin:10px auto;
 	border-radius:50px;
 	justify-content:center;
+	transition: background-color 0.3s ease;
 }
 
 .btn:hover{
