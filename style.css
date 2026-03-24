@@ -1,11 +1,11 @@
 .slider{
 	margin:20px auto;
-	width:40%;
+	width:100%;
 	height:auto;
 	overflow:hidden;
 }
  
-.img-box img{
+.img-box Img{
 	width:80%;
 }
 
