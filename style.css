@@ -1,12 +1,12 @@
 .slider{
 	margin:20px auto;
-	width:200px;
+	width:100px;
 	height:auto;
 	overflow:hidden;
 }
  
 .img-box img{
-	width:30%;
+	width:80%;
 }
 
 .btn{
