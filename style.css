@@ -1,7 +1,8 @@
 .slider{
-	margin:20px auto;
-	width:300%;
-	height:500%;
+	margin-left:20px 
+	margin-right:20px;
+	width:30%;
+	height:30%;
 	overflow:hidden;
 }
  
@@ -10,7 +11,7 @@
 }
 
 .btn{
-	border:none;
+	border:10px;
 	outline:none;
 	background:#888;
 	padding:10px 30px;
