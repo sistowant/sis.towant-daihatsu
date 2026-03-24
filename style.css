@@ -1,23 +1,25 @@
 .slider{
 	margin:50px auto;
-	width:100%;
+	width:50%;
 	overflow:hidden;
 }
  
 .img-box img{
-	width:440%;
+	width:100%;
 	height:auto;
 }
 
 .btn{
-	border:10px;
+	border:none;
 	outline:none;
 	background:#888;
 	padding:10px 30px;
 	font-size: 20px;
 	color:#ddd;
 	cursor: pointer;
-	margin:10px auto;			 
+	margin:10px auto;
+	border-radius:50px;
+	justify-content:center;
 }
 
 .btn:hover{
