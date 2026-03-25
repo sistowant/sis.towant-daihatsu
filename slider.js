@@ -1,20 +1,18 @@
-var slider_img = document.querySelector('.slider-img');
-var Img = ['1.jpg', '2.jpg', '3.jpg', 'e.jpg'];
-var i = 0;
+var img = document.getElementById('Img');
 
-function prev(){
-	if(i <= 0) 
-		i = Img.length;	
-	i--;
-	return setImg();			 
-}
+var slides=['1.jpg','2.jpg', '3.jpg'];
 
-function next(){
-	if(i >= Img.length-1) i = -1;
-	i++;
-	return setImg();			 
-}
+var Start=0;
 
-function setImg(){
-	return slider_img.setAttribute('src', "Img/"+Img[i]);
+function slider(){
+    if(Start<slides.length){
+        Start=Start+1;
+    }
+    else{
+        Start=1;
+    }
+    console.log(img);
+    img.innerHTML = "<img src="+slides[Start-1]+">";
+   
 }
+setInterval(slider,2000);
