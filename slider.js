@@ -1,4 +1,4 @@
-var img = document.getElementById('Img');
+var img = document.querySelector('.slider-img')
 
 var slides=['1.jpg','2.jpg', '3.jpg'];
 
