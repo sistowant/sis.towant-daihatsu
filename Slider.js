@@ -1,17 +1,17 @@
 var slider_img = document.querySelector('.slider-img');
-var Img = ['6.jpg', '5.jpg', '4.jpg', '3.jpg', '2.jpg', '1.jpg'];
+var Img = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg'];
 var i = 0;
 
 function prev(){
-	if(i <= 0) i = img.length;	
+	if(i <= 0) i = Img.length;	
 	i--;
-	return setimg();			 
+	return setImg();			 
 }
 
 function next(){
-	if(i >= img.length-1) i = -1;
+	if(i >= Img.length-1) i = -1;
 	i++;
-	return setimg();			 
+	return setImg();			 
 }
 
 function setimg(){
