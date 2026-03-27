@@ -1,6 +1,6 @@
 
 var slider_img = document.querySelector('.slider-img');
-var Img = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+var img = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
 var i = 0;
 
 function prev(){
