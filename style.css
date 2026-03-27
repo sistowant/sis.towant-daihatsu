@@ -3,7 +3,7 @@
 	width:90%;
 }
  
-.img-box Img{
+.img-box img{
 	width:90%;
 }
 
@@ -11,8 +11,8 @@
 	border:none;
 	outline:none;
 	background:#888;
-	padding:10px 30px;
-	font-size: 20px;
+	padding:10px 20px;
+	font-size: 10px;
 	color:#ddd;
 	cursor: pointer;
 	margin:10px auto;			 
