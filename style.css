@@ -22,9 +22,9 @@
 	background: #111;
 }
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  padding: 10px;
+  font-size: 20px;
+  width: 70px;
   text-align: center;
   text-decoration: none;
 }
@@ -38,7 +38,4 @@
   color: white;
 }
 
-.fa-twitter {
-  background: #55ACEE;
-  color: black;
-}
+
